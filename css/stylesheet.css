@@ -43,3 +43,13 @@ ul {
     margin-left: 0px ;
     margin-right: 1500px;
 }
+
+#about {
+    display: flex;
+    position: absolute;
+    width: 702px;
+    height: 722px;
+    margin-top: 300px;
+    margin-left: 1400px;
+    margin-right: 750px;
+}
