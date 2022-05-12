@@ -94,6 +94,6 @@ ul {
     margin-top: 400px;
     align-content: flex-end;
     margin-left: 1000px;
-    /* justify-content: center; */
+    justify-content: center;
     text-align: right;
 }
