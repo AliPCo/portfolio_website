@@ -4,28 +4,29 @@ body {
     display: flex;
     justify-content: center;
     margin: 0px;
+    background-color: #E5AED0;
 }
 
 #main-container {
+    display: flex;
     margin: 0px;
     width: 1024px;
     height: 4000px;
-    background-color: #E5AED0;
-    display: flex;
-    justify-content: center;
-    border: solid 1px black;
+    /* background-color: #E5AED0; */
+    /* justify-content: center; */
+    /* border: solid 1px black; */
 }
 
 .name {
     margin: 0px;
     background-color: #F2F2F2;
-    width: 100%;
+    width: 1024px;
     height: 200px;
-    /* font-family: ; */
     position: fixed;
-    display: flex;
+    /* display: flex; */
     justify-content: center;
     align-items: center ;
+    text-align: center;
 }
 
 ul {
@@ -45,34 +46,29 @@ ul {
     width: 355px;
     margin-top: 300px ;
     margin-left: 0px ;
-    /* margin-right: 1500px; */
 }
 
 #about-box {   
-    /* position: absolute; */
     width: 702px;
     height: 722px;
     /* margin-top: 250px;
     margin-left: 1350px;
     margin-right: 750px; */
     font-size: 25pt;
-    /* background-color: #F2F2F2; */
 }
 
 #about-paragraph {
-    position: absolute;
     font-size: 20pt;
     width: 625px;
-    height: auto;
+    height: 410px;
     /* margin-top: 400px;
     margin-right: 50px; */
-    align-content: flex-end;
-    justify-content: center;
+    /* align-content: flex-end;
+    justify-content: center; */
     text-align: right;
 }
 
 #education-box {
-    position: absolute;
     width: 702px;
     height: 722px;
     /* margin-top: 250px;
@@ -83,7 +79,6 @@ ul {
 }
 
 #education-paragraph {
-    position: absolute;
     font-size: 20pt;
     width: 500px;
     height: auto;
@@ -95,6 +90,5 @@ ul {
 }
 
 /* #Portfolio {
-    display: flex;
     margin-top: 3000px;
 } */
