@@ -12,19 +12,22 @@ body {
     width: 1024px;
     height: 4000px;
     /* background-color: #E5AED0; */
-    /* justify-content: center; */
     /* border: solid 1px black; */
 }
 
+header {
+    display: flex;
+    /* justify-content: center; */
+    align-content: center;
+    /* align-items: center; */
+    text-align: center;
+}
 .name {
     margin: 0px;
     background-color: #F2F2F2;
     width: 1024px;
     height: 200px;
     position: fixed;
-    justify-content: center;
-    align-items: center ;
-    text-align: center;
 }
 
 ul {
@@ -75,7 +78,6 @@ ul {
     width: 500px;
     height: auto;
     align-content: flex-end;
-    justify-content: center;
     text-align: right;
 }
 
