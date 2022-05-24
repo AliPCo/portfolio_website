@@ -1,4 +1,7 @@
+/* Help I am so lost and have no idea how to fix this */
+
 body { 
+    display: flex;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -16,10 +19,9 @@ body {
 }
 
 header {
-    display: flex;
-    /* justify-content: center; */
+    justify-content: center;
     align-content: center;
-    /* align-items: center; */
+    align-items: center;
     text-align: center;
 }
 .name {
@@ -31,6 +33,7 @@ header {
 }
 
 ul {
+    flex: auto;
     justify-content: space-around;
     font-size: 20px;
     /* padding: 20px;
@@ -40,6 +43,7 @@ ul {
     width: 1300px;
     position: fixed;
     margin-top: 164px
+
 }
 
 #self-portrait {
@@ -83,4 +87,8 @@ ul {
 
 /* #Portfolio {
     margin-top: 3000px;
+}
+
+#Contact {
+    margin-top: 5000px; 
 } */
